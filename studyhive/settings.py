@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bqu#4il+fb&-h1eg!(wb$o88b$fmv%^i24v*64bi7b^lq1^+w$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://studyhive.onrender.com']
 
 
 # Application definition
