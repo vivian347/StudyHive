@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bqu#4il+fb&-h1eg!(wb$o88b$fmv%^i24v*64bi7b^lq1^+w$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['studyhive.onrender.com']
+ALLOWED_HOSTS = ['studyhive.onrender.com', '127.0.0.1']
 
 
 # Application definition
@@ -124,8 +124,10 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
 
 STATICFILES_DIRS = [
-    BASE_DIR/ 'static'
+    BASE_DIR / 'static'
 ]
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 
 MEDIA_ROOT = BASE_DIR / 'static/images'
 
